@@ -1,9 +1,9 @@
 # Useful Powershell Commands
 
 ## Determine Powershell version
-"""
+```
 $PSVersionTable
-"""
+```
 
 ## Enable running scripts
 By default, Powershell script execution is disabled. This is a security measure to prevent accidentally executing malicious scripts.
