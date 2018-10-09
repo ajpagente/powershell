@@ -11,17 +11,17 @@ By default, Powershell script execution is disabled. This is a security measure 
 To be able to run the following activation/deactivation commands, run Powershell as Administrator.
 
 ### Check execution policy
-"""
+```
 $Get-ExecutionPolicy
-"""
+```
 
 ### Enable script execution
-"""
+```
 $Set-ExecutionPolicy Unrestricted
-"""
+```
 
 ### Disable script execution
 After running your script you may want to disable script execution as a security practice.
-"""
+```
 $Set-ExecutionPolicy Restricted
-"""
+```
